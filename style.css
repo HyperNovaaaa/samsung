@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    opacity: 0;
+}
+h1:hover {
+opacity: 1;
+transition: 1s linear;
+ color: darkgreen;
+}
+h1 {
+    text-align: center;
+ background-color: yellow;
+}
+h2 {
+    text-align: center;
+   
+}
+nav {
+   
+    text-align: center;
+    justify-content: space-between;
+    font-size: 25px;
+    display: flex;
+   
+}
+nav a{
+     text-decoration: none;
+     background-color: bisque;
+     border-radius: 15px;
+     box-shadow: 5px 5px;
+     padding: 10px;
+     color: black;
+}
+
+.trem {
+    height: 50px;
+    width: 50px;
+}
+.rrr {
+    position: fixed;
+}
+
+.huh {
+    width:300px;
+    height:500px;
+    text-align: center;
+    background-color:bisque;
+    border-radius: 20px;
+}
+button{
+border-radius: 10px;
+}
+
+.hyh {
+    justify-content: space-between;
+    display: flex;
+}
+.huh:hover{
+    border: 3px solid green;
+    transition: 1s linear;
+}
+.hah {
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightcoral;
+}
+.hah:hover {
+    border: 3px solid green;
+    transition: 1s linear;
+}
+nav a:hover {
+    box-shadow:  5px 5px orchid;
+}
+.ddda:hover {
+box-shadow: 5px 5px lime;
+}
+.ddda:focus {
+    box-shadow: 5px 5px lightsalmon;
+}
